@@ -133,7 +133,7 @@ HTTP 请求在实际碰触到应用程序之前，最好是可以层层通过中
 
     Route::get('/', function () {
         //
-    }])->middleware(['first', 'second']);
+    })->middleware(['first', 'second']);
 
 <a name="middleware-parameters"></a>
 ## 中间件参数
